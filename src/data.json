@@ -1,0 +1,29 @@
+[ 
+{ 
+"registered": "Yes", 
+"incognito": "No", 
+"first_name": "Jane", 
+"last_name": "Hoya", 
+"school_year_code": "College '92"
+}, 
+{ 
+"registered": "Yes", 
+"incognito": "No", 
+"first_name": "James", 
+"last_name": "Saxa", 
+"school_year_code": "College '72, Law '86" }, 
+{ 
+"registered": "No", 
+"incognito": "Yes", 
+"first_name": "Wiliam", 
+"last_name": "Clinton", 
+"school_year_code": "College '68" 
+}, 
+{ 
+"registered": "No", 
+"incognito": "No", 
+"first_name": "George", 
+"last_name": "Town", 
+"school_year_code": "Law '86" 
+} 
+]
