@@ -4,14 +4,13 @@ const AttendeeList = ({ attendees }) => {
   const maxDisplay = 3;
 
   return (
-    <div>
-      <h2>Attendee List</h2>
-      <div className='attendeeContainer'>
+    <div className='attendee-list'>
+      <div className='attendee-container'>
         {attendees.slice(0, maxDisplay).map((attendee, index) => (
-          <div className='attendeeBox' key={index}>
-            {attendee.first_name} {attendee.last_name} 
-            {attendee.school_year}
-            {attendee.registered}
+          <div className='attendee-box' key={index}>
+            <div className='school-year'>{attendee.school_year}</div>
+            <div className='attendee-name'>{attendee.first_name} {attendee.last_name} </div>
+            <div className='registered-status'>{attendee.registered}</div>
           </div>
         ))}
       </div>

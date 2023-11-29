@@ -1,29 +1,29 @@
 [ 
 { 
-"registered": "Yes", 
+"registered": "Registered", 
 "incognito": "No", 
 "first_name": "Jane", 
 "last_name": "Hoya", 
-"school_year_code": "College '92"
+"school_year": "College '92"
 }, 
 { 
-"registered": "Yes", 
-"incognito": "No", 
-"first_name": "James", 
-"last_name": "Saxa", 
-"school_year_code": "College '72, Law '86" }, 
-{ 
-"registered": "No", 
-"incognito": "Yes", 
-"first_name": "Wiliam", 
-"last_name": "Clinton", 
-"school_year_code": "College '68" 
-}, 
-{ 
-"registered": "No", 
+"registered": "Not Registered", 
 "incognito": "No", 
 "first_name": "George", 
 "last_name": "Town", 
-"school_year_code": "Law '86" 
+"school_year": "Law '86" }, 
+{ 
+"registered": " Registered", 
+"incognito": "No", 
+"first_name": "James", 
+"last_name": "Saxa", 
+"school_year": "College '72, Law '86" 
+}, 
+{ 
+"registered": "Not Registered", 
+"incognito": "Yes", 
+"first_name": "William", 
+"last_name": "Clinton", 
+"school_year": "College '86" 
 } 
 ]
