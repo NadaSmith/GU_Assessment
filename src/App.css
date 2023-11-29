@@ -10,8 +10,8 @@ body {
 }
 
 .App {
-  max-width: 1200px; /* Set the maximum width of your container */
-  margin: 0 auto; /* Center the container on the page */
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 /*======== Header ========*/
@@ -25,8 +25,8 @@ body {
 }
 
 .logo {
-  max-width: 100%; /* Ensure the logo doesn't exceed the width of its container */
-  height: auto; /* Maintain the aspect ratio of the logo */
+  max-width: 100%; 
+  height: auto; 
 }
 
 h1 {
@@ -137,17 +137,17 @@ hr {
 }
 
 .attendee-list {
-  flex: 0 0 75%; /* Set a fixed width for the attendee list, adjust as needed */
-  padding-top: 85px; /* Add some padding to the attendee list */
+  flex: 0 0 75%; 
+  padding-top: 85px; 
 }
 
 .attendee-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-  gap: 20px; /* Adjust the gap between items */
-  justify-content: center; /* Center the grid horizontally */
-  align-items: center; /* Center the grid vertically */
-  margin: 20px; /* Add margin for better spacing */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px; 
 }
 
 .attendee-box {
@@ -175,7 +175,6 @@ hr {
 
 .registered-status {
   font-size: medium;
-  font-style: ;
   font-weight: bold;
 }
 
